@@ -1,0 +1,99 @@
+{
+  "welcome": "⚡ <b>𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b> ⚡\n━━━━━━━━━━━━━━━━━━\n\n👋 <b>Welcome,</b> {name}!\n\n◈ <i>Your premium marketplace for Telegram accounts.</i>\n\n💰 <b>Wᴀʟʟᴇᴛ:</b> <code>${balance}</code>\n📦 <b>Pᴜʀᴄʜᴀsᴇᴅ:</b> <code>{purchased}</code> accounts\n\n⚠️ <i>Only use the official Telegram app for login.\nWe are NOT responsible for any bans.</i>\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
+
+  "main_menu_shop": "🛒 Sʜᴏᴘ",
+  "main_menu_wallet": "💰 Wᴀʟʟᴇᴛ",
+  "main_menu_accounts": "📦 Mʏ Aᴄᴄᴏᴜɴᴛs",
+  "main_menu_profile": "👤 Pʀᴏғɪʟᴇ",
+  "main_menu_support": "📞 Sᴜᴘᴘᴏʀᴛ",
+  "main_menu_about": "ℹ️ Aʙᴏᴜᴛ",
+
+  "shop_title": "🛒 <b>𝗔𝗖𝗖𝗢𝗨𝗡𝗧 𝗦𝗛𝗢𝗣</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Sᴇʟᴇᴄᴛ ᴀ ᴄᴏᴜɴᴛʀʏ</b> to browse available accounts:",
+  "shop_empty": "📭 <b>𝗡𝗢 𝗦𝗧𝗢𝗖𝗞 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>No accounts in stock right now.\nPlease check back later.</i>",
+
+  "country_details": "{flag} <b>{country} 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📦 <b>Iɴ Sᴛᴏᴄᴋ:</b> <code>{stock}</code>\n💰 <b>Pʀɪᴄᴇ:</b> <code>${price}</code>\n\n✦ <b>Aᴜᴛᴏ-ᴠᴇʀɪғɪᴇᴅ</b> sessions\n✦ <b>2FA</b> included\n✦ <b>Iɴsᴛᴀɴᴛ</b> delivery",
+
+  "btn_buy_one": "🛒 Bᴜʏ 1 Aᴄᴄᴏᴜɴᴛ",
+  "btn_back": "🔙 Bᴀᴄᴋ",
+  "btn_back_menu": "🔙 Bᴀᴄᴋ ᴛᴏ Mᴇɴᴜ",
+  "btn_back_shop": "🔙 Bᴀᴄᴋ ᴛᴏ Sʜᴏᴘ",
+  "btn_confirm": "✅ Cᴏɴғɪʀᴍ",
+  "btn_cancel": "❌ Cᴀɴᴄᴇʟ",
+
+  "purchase_confirm": "⚡ <b>𝗖𝗢𝗡𝗙𝗜𝗥𝗠 𝗣𝗨𝗥𝗖𝗛𝗔𝗦𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n{flag} <b>{country}</b> Account × 1\n\n💰 <b>Pʀɪᴄᴇ:</b> <code>${price}</code>\n💳 <b>Wᴀʟʟᴇᴛ:</b> <code>${balance}</code>\n📊 <b>Aғᴛᴇʀ:</b> <code>${after}</code>",
+
+  "purchase_success": "✅ <b>𝗣𝗨𝗥𝗖𝗛𝗔𝗦𝗘 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟!</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>Pʜᴏɴᴇ:</b> <code>{phone}</code>\n💰 <b>Rᴇᴍᴀɪɴɪɴɢ:</b> <code>${balance}</code>\n\n⚠️ <b>IMPORTANT:</b>\n<i>Login ONLY via official Telegram app.\nWe are NOT responsible for any ban.</i>",
+
+  "btn_accept_view": "✅ I Aᴄᴄᴇᴘᴛ & Vɪᴇᴡ Dᴇᴛᴀɪʟs",
+
+  "account_details": "📱 <b>𝗔𝗖𝗖𝗢𝗨𝗡𝗧 𝗗𝗘𝗧𝗔𝗜𝗟𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📞 <b>Pʜᴏɴᴇ:</b> <code>{phone}</code>\n🔐 <b>2FA:</b> <code>{twofa}</code>\n🌍 <b>Cᴏᴜɴᴛʀʏ:</b> {country}\n📅 <b>Bᴏᴜɢʜᴛ:</b> {date}\n📊 <b>Sᴛᴀᴛᴜs:</b> {status}",
+
+  "btn_view_otp": "👁 Vɪᴇᴡ OTP",
+  "btn_remove_device": "🗑 Rᴇᴍᴏᴠᴇ Bᴏᴛ Dᴇᴠɪᴄᴇ",
+
+  "otp_title": "👁 <b>𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗖𝗢𝗗𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>Aᴄᴄᴏᴜɴᴛ:</b> <code>{phone}</code>\n🔑 <b>Lᴀᴛᴇsᴛ Cᴏᴅᴇ:</b> <code>{code}</code>\n🕐 <b>Rᴇᴄᴇɪᴠᴇᴅ:</b> {time}\n\n⚠️ <i>This code expires quickly.</i>",
+
+  "otp_not_found": "⚠️ <b>𝗡𝗢 𝗢𝗧𝗣 𝗙𝗢𝗨𝗡𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>No recent verification code found.\nMake sure you requested an OTP,\nthen click Refresh.</i>",
+
+  "btn_refresh": "🔄 Rᴇғʀᴇsʜ",
+  "btn_copy_otp": "📋 Cᴏᴘʏ OTP",
+
+  "remove_device_confirm": "⚠️ <b>𝗥𝗘𝗠𝗢𝗩𝗘 𝗕𝗢𝗧 𝗗𝗘𝗩𝗜𝗖𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Are you sure?</b>\n\n❖ <b>Aғᴛᴇʀ ᴛʜɪs:</b>\n  ✗ No more OTP viewing\n  ✗ Bot loses all access\n  ✓ Account fully yours\n\n⚠️ <i>This action is PERMANENT.</i>",
+
+  "btn_yes_logout": "✅ Yᴇs, Lᴏɢᴏᴜᴛ",
+
+  "device_removed": "✅ <b>𝗕𝗢𝗧 𝗗𝗘𝗩𝗜𝗖𝗘 𝗥𝗘𝗠𝗢𝗩𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>Bot has been logged out from\nthis account. You no longer\nhave OTP access.</i>",
+
+  "wallet_title": "💰 <b>𝗠𝗬 𝗪𝗔𝗟𝗟𝗘𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n💳 <b>Bᴀʟᴀɴᴄᴇ:</b> <code>${balance}</code>\n📊 <b>Tᴏᴛᴀʟ Sᴘᴇɴᴛ:</b> <code>${spent}</code>\n📦 <b>Pᴜʀᴄʜᴀsᴇs:</b> <code>{count}</code>",
+
+  "wallet_no_transactions": "📭 <i>No transactions yet.</i>",
+
+  "btn_request_balance": "💳 Aᴅᴅ Bᴀʟᴀɴᴄᴇ",
+
+  "balance_request_ask": "💳 <b>𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗕𝗔𝗟𝗔𝗡𝗖𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Enter the amount</b> you want\nto add to your wallet:",
+
+  "balance_request_sent": "✅ <b>𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗦𝗘𝗡𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\nYour request for <code>${amount}</code>\nhas been sent to admin.\n\n<i>You will be notified once approved.</i>",
+
+  "balance_added": "💰 <b>𝗕𝗔𝗟𝗔𝗡𝗖𝗘 𝗔𝗗𝗗𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<code>${amount}</code> has been added\nto your wallet.\n\n💳 <b>Nᴇᴡ Bᴀʟᴀɴᴄᴇ:</b> <code>${balance}</code>",
+
+  "my_accounts_title": "📦 <b>𝗠𝗬 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Tᴏᴛᴀʟ Pᴜʀᴄʜᴀsᴇᴅ:</b> <code>{count}</code>",
+
+  "my_accounts_empty": "📭 <b>𝗡𝗢 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦 𝗬𝗘𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>You haven't purchased any\naccounts yet. Visit the Shop\nto get started!</i>",
+
+  "profile_title": "👤 <b>𝗠𝗬 𝗣𝗥𝗢𝗙𝗜𝗟𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n🆔 <b>ID:</b> <code>{id}</code>\n👤 <b>Nᴀᴍᴇ:</b> {name}\n📛 <b>Usᴇʀɴᴀᴍᴇ:</b> @{username}\n📅 <b>Jᴏɪɴᴇᴅ:</b> {joined}\n💰 <b>Bᴀʟᴀɴᴄᴇ:</b> <code>${balance}</code>\n📦 <b>Pᴜʀᴄʜᴀsᴇs:</b> <code>{purchases}</code>\n🌍 <b>Lᴀɴɢᴜᴀɢᴇ:</b> {language}",
+
+  "btn_change_language": "🌍 Cʜᴀɴɢᴇ Lᴀɴɢᴜᴀɢᴇ",
+
+  "language_select": "🌍 <b>𝗦𝗘𝗟𝗘𝗖𝗧 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘</b>\n━━━━━━━━━━━━━━━━━━",
+  "language_changed": "✅ Language changed to <b>{language}</b>",
+
+  "support_text": "📞 <b>𝗦𝗨𝗣𝗣𝗢𝗥𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Cᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ғᴏʀ ʜᴇʟᴘ:</b>\n\n{contact}",
+
+  "about_text": "ℹ️ <b>𝗔𝗕𝗢𝗨𝗧 𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>𝗣ʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ\nᴍᴀʀᴋᴇᴛᴘʟᴀᴄᴇ</b> with instant\ndelivery and OTP service.\n\n⚡ <b>Vᴇʀsɪᴏɴ:</b> 1.0.0\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
+
+  "error_insufficient_balance": "❌ <b>𝗜𝗡𝗦𝗨𝗙𝗙𝗜𝗖𝗜𝗘𝗡𝗧 𝗕𝗔𝗟𝗔𝗡𝗖𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n💰 <b>Yᴏᴜʀ Bᴀʟᴀɴᴄᴇ:</b> <code>${balance}</code>\n💲 <b>Rᴇǫᴜɪʀᴇᴅ:</b> <code>${required}</code>\n📊 <b>Sʜᴏʀᴛ ʙʏ:</b> <code>${short}</code>\n\n<i>Add balance to continue.</i>",
+
+  "error_out_of_stock": "❌ <b>𝗢𝗨𝗧 𝗢𝗙 𝗦𝗧𝗢𝗖𝗞</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>No accounts available for\nthis country right now.</i>",
+
+  "error_session_dead": "❌ <b>𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗘𝗫𝗣𝗜𝗥𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>The session has expired or\nbeen revoked. OTP viewing\nis no longer available.</i>",
+
+  "error_banned": "🚫 <b>𝗔𝗖𝗖𝗘𝗦𝗦 𝗗𝗘𝗡𝗜𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>You have been banned from\nusing this bot.</i>",
+
+  "error_generic": "❌ <b>An error occurred.</b> Please try again.",
+
+  "force_sub_required": "🔐 <b>𝗝𝗢𝗜𝗡 𝗥𝗘𝗤𝗨𝗜𝗥𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Welcome to TG Mandi!</b>\n\nTo use this bot, you must\njoin the following channels:",
+
+  "force_sub_partial": "⚠️ <b>𝗦𝗧𝗜𝗟𝗟 𝗠𝗜𝗦𝗦𝗜𝗡𝗚</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>Please join all required\nchannels and try again.</i>",
+
+  "force_sub_verified": "✅ <b>𝗩𝗘𝗥𝗜𝗙𝗜𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>Welcome! Loading menu...</i>",
+
+  "btn_verify_membership": "✅ Vᴇʀɪғʏ Mᴇᴍʙᴇʀsʜɪᴘ",
+  "btn_join": "🌐 Jᴏɪɴ {name}",
+  "btn_join_private": "🔒 Jᴏɪɴ {name}",
+
+  "status_active": "✅ Aᴄᴛɪᴠᴇ",
+  "status_removed": "🔒 Rᴇᴍᴏᴠᴇᴅ",
+  "status_dead": "❌ Dᴇᴀᴅ",
+
+  "throttled": "⚠️ <b>Too many requests.</b> Please slow down."
+}

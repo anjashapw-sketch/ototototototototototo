@@ -1,0 +1,40 @@
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# GHOST MARKET BOT — Requirements
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ━━ Telegram Bot Framework ━━
+aiogram==3.28.2
+
+# ━━ Telegram Client API (for account sessions/OTP) ━━
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# ━━ Database ━━
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+alembic==1.14.0
+greenlet==3.1.1
+
+# ━━ Encryption (sessions, 2FA) ━━
+cryptography==44.0.0
+
+# ━━ Utilities ━━
+phonenumbers==8.13.52
+pycountry==24.6.1
+python-dotenv==1.0.1
+
+# ━━ Config Validation ━━
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# ━━ Scheduler ━━
+apscheduler==3.11.0
+
+# ━━ Logging ━━
+loguru==0.7.3
+
+# ━━ HTTP Client (FamGateway + Live Rate API) ━━
+aiohttp==3.11.11
+
+# ━━ FamGateway (UPI auto-payments) ━━
+famgateway==1.0.4
