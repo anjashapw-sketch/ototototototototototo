@@ -1,99 +1,60 @@
 {
-  "welcome": "⚡ <b>𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b> ⚡\n━━━━━━━━━━━━━━━━━━\n\n👋 <b>مرحباً,</b> {name}!\n\n◈ <i>سوقك المميز لحسابات تيليجرام.</i>\n\n💰 <b>المحفظة:</b> <code>${balance}</code>\n📦 <b>المُشترى:</b> <code>{purchased}</code> حسابات\n\n⚠️ <i>استخدم فقط تطبيق Telegram الرسمي.\nنحن غير مسؤولين عن أي حظر.</i>\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
-
+  "welcome": "⚡ <b>𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b> ⚡\n━━━━━━━━━━━━━━━━━━\n\n👋 <b>مرحباً,</b> {name}!\n\n◈ <i>سوقك المميز لحسابات تيليجرام.</i>\n\n💰 <b>المحفظة:</b> <code>₹{balance}</code>\n📦 <b>المُشترى:</b> <code>{purchased}</code> حسابات\n\n⚠️ <i>استخدم فقط تطبيق Telegram الرسمي.\nنحن غير مسؤولين عن أي حظر.</i>\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
   "main_menu_shop": "🛒 المتجر",
   "main_menu_wallet": "💰 المحفظة",
   "main_menu_accounts": "📦 حساباتي",
   "main_menu_profile": "👤 الملف الشخصي",
   "main_menu_support": "📞 الدعم",
   "main_menu_about": "ℹ️ حول",
-
   "shop_title": "🛒 <b>𝗔𝗖𝗖𝗢𝗨𝗡𝗧 𝗦𝗛𝗢𝗣</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>اختر دولة</b> لتصفح الحسابات:",
   "shop_empty": "📭 <b>𝗟𝗔 𝗧𝗢𝗝𝗔𝗗 𝗠𝗨𝗧𝗔𝗙𝗔𝗥𝗥𝗘𝗤𝗔𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>لا توجد حسابات متاحة الآن.\nيرجى المحاولة لاحقاً.</i>",
-
-  "country_details": "{flag} <b>{country} 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📦 <b>في المخزون:</b> <code>{stock}</code>\n💰 <b>السعر:</b> <code>${price}</code>\n\n✦ <b>جلسات</b> تم التحقق منها تلقائياً\n✦ <b>2FA</b> مدرج\n✦ <b>تسليم</b> فوري",
-
+  "country_details": "{flag} <b>{country} 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📦 <b>في المخزون:</b> <code>{stock}</code>\n💰 <b>السعر:</b> <code>₹{price}</code>\n\n✦ <b>جلسات</b> تم التحقق منها تلقائياً\n✦ <b>2FA</b> مدرج\n✦ <b>تسليم</b> فوري",
   "btn_buy_one": "🛒 شراء حساب واحد",
   "btn_back": "🔙 رجوع",
   "btn_back_menu": "🔙 العودة للقائمة",
   "btn_back_shop": "🔙 العودة للمتجر",
   "btn_confirm": "✅ تأكيد",
   "btn_cancel": "❌ إلغاء",
-
-  "purchase_confirm": "⚡ <b>𝗖𝗢𝗡𝗙𝗜𝗥𝗠 𝗣𝗨𝗥𝗖𝗛𝗔𝗦𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n{flag} <b>{country}</b> حساب × 1\n\n💰 <b>السعر:</b> <code>${price}</code>\n💳 <b>المحفظة:</b> <code>${balance}</code>\n📊 <b>بعد:</b> <code>${after}</code>",
-
-  "purchase_success": "✅ <b>𝗧𝗔𝗠𝗠𝗔 𝗔𝗟-𝗦𝗛𝗜𝗥𝗔𝗔!</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>الهاتف:</b> <code>{phone}</code>\n💰 <b>المتبقي:</b> <code>${balance}</code>\n\n⚠️ <b>مهم:</b>\n<i>سجل الدخول فقط عبر تطبيق Telegram الرسمي.\nنحن غير مسؤولين عن أي حظر.</i>",
-
+  "purchase_confirm": "⚡ <b>𝗖𝗢𝗡𝗙𝗜𝗥𝗠 𝗣𝗨𝗥𝗖𝗛𝗔𝗦𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n{flag} <b>{country}</b> حساب × 1\n\n💰 <b>السعر:</b> <code>₹{price}</code>\n💳 <b>المحفظة:</b> <code>₹{balance}</code>\n📊 <b>بعد:</b> <code>₹{after}</code>",
+  "purchase_success": "✅ <b>𝗧𝗔𝗠𝗠𝗔 𝗔𝗟-𝗦𝗛𝗜𝗥𝗔𝗔!</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>الهاتف:</b> <code>{phone}</code>\n💰 <b>المتبقي:</b> <code>₹{balance}</code>\n\n⚠️ <b>مهم:</b>\n<i>سجل الدخول فقط عبر تطبيق Telegram الرسمي.\nنحن غير مسؤولين عن أي حظر.</i>",
   "btn_accept_view": "✅ أوافق وعرض التفاصيل",
-
   "account_details": "📱 <b>𝗧𝗔𝗙𝗔𝗦𝗦𝗜𝗟 𝗔𝗟-𝗛𝗔𝗦𝗔𝗕</b>\n━━━━━━━━━━━━━━━━━━\n\n📞 <b>الهاتف:</b> <code>{phone}</code>\n🔐 <b>2FA:</b> <code>{twofa}</code>\n🌍 <b>الدولة:</b> {country}\n📅 <b>تاريخ الشراء:</b> {date}\n📊 <b>الحالة:</b> {status}",
-
   "btn_view_otp": "👁 عرض OTP",
   "btn_remove_device": "🗑 إزالة جهاز البوت",
-
   "otp_title": "👁 <b>𝗥𝗔𝗠𝗭 𝗔𝗟-𝗧𝗔𝗛𝗤𝗘𝗘𝗤</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>الحساب:</b> <code>{phone}</code>\n🔑 <b>أحدث رمز:</b> <code>{code}</code>\n🕐 <b>تم الاستلام:</b> {time}\n\n⚠️ <i>هذا الرمز ينتهي بسرعة.</i>",
-
   "otp_not_found": "⚠️ <b>𝗟𝗔𝗠 𝗬𝗨𝗝𝗔𝗗 𝗢𝗧𝗣</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>لم يتم العثور على رمز حديث.\nاطلب OTP ثم اضغط تحديث.</i>",
-
   "btn_refresh": "🔄 تحديث",
   "btn_copy_otp": "📋 نسخ OTP",
-
   "remove_device_confirm": "⚠️ <b>𝗜𝗭𝗔𝗟𝗔𝗧 𝗔𝗟-𝗝𝗜𝗛𝗔𝗭</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>هل أنت متأكد?</b>\n\n❖ <b>بعد هذا:</b>\n  ✗ لا مزيد من عرض OTP\n  ✗ البوت يفقد كل الوصول\n  ✓ الحساب لك بالكامل\n\n⚠️ <i>هذا الإجراء دائم.</i>",
-
   "btn_yes_logout": "✅ نعم, تسجيل الخروج",
-
   "device_removed": "✅ <b>𝗧𝗔𝗠𝗠𝗔 𝗜𝗭𝗔𝗟𝗔𝗧 𝗔𝗟-𝗝𝗜𝗛𝗔𝗭</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>تم تسجيل خروج البوت من هذا الحساب.\nلم يعد لديك وصول إلى OTP.</i>",
-
-  "wallet_title": "💰 <b>𝗠𝗔𝗛𝗙𝗔𝗭𝗔𝗧𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n💳 <b>الرصيد:</b> <code>${balance}</code>\n📊 <b>إجمالي المنفق:</b> <code>${spent}</code>\n📦 <b>المشتريات:</b> <code>{count}</code>",
-
+  "wallet_title": "💰 <b>𝗠𝗔𝗛𝗙𝗔𝗭𝗔𝗧𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n💳 <b>الرصيد:</b> <code>₹{balance}</code>\n📊 <b>إجمالي المنفق:</b> <code>₹{spent}</code>\n📦 <b>المشتريات:</b> <code>{count}</code>",
   "wallet_no_transactions": "📭 <i>لا توجد معاملات بعد.</i>",
-
   "btn_request_balance": "💳 إضافة رصيد",
-
   "balance_request_ask": "💳 <b>𝗧𝗔𝗟𝗔𝗕 𝗥𝗔𝗦𝗘𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>أدخل المبلغ</b> الذي تريد\nإضافته إلى محفظتك:",
-
-  "balance_request_sent": "✅ <b>𝗧𝗔𝗠𝗠𝗔 𝗜𝗥𝗦𝗔𝗟 𝗔𝗟-𝗧𝗔𝗟𝗔𝗕</b>\n━━━━━━━━━━━━━━━━━━\n\nتم إرسال طلبك لـ <code>${amount}</code>\nإلى المسؤول.\n\n<i>سيتم إبلاغك عند الموافقة.</i>",
-
-  "balance_added": "💰 <b>𝗧𝗔𝗠𝗠𝗔𝗧 𝗜𝗗𝗛𝗔𝗙𝗔𝗧 𝗔𝗟-𝗥𝗔𝗦𝗘𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\nتم إضافة <code>${amount}</code>\nإلى محفظتك.\n\n💳 <b>الرصيد الجديد:</b> <code>${balance}</code>",
-
+  "balance_request_sent": "✅ <b>𝗧𝗔𝗠𝗠𝗔 𝗜𝗥𝗦𝗔𝗟 𝗔𝗟-𝗧𝗔𝗟𝗔𝗕</b>\n━━━━━━━━━━━━━━━━━━\n\nتم إرسال طلبك لـ <code>₹{amount}</code>\nإلى المسؤول.\n\n<i>سيتم إبلاغك عند الموافقة.</i>",
+  "balance_added": "💰 <b>𝗧𝗔𝗠𝗠𝗔𝗧 𝗜𝗗𝗛𝗔𝗙𝗔𝗧 𝗔𝗟-𝗥𝗔𝗦𝗘𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\nتم إضافة <code>₹{amount}</code>\nإلى محفظتك.\n\n💳 <b>الرصيد الجديد:</b> <code>₹{balance}</code>",
   "my_accounts_title": "📦 <b>𝗛𝗜𝗦𝗔𝗕𝗔𝗧𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>إجمالي المُشترى:</b> <code>{count}</code>",
-
   "my_accounts_empty": "📭 <b>𝗟𝗔 𝗧𝗢𝗝𝗔𝗗 𝗛𝗜𝗦𝗔𝗕𝗔𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>لم تشتر أي حسابات بعد.\nقم بزيارة المتجر للبدء!</i>",
-
-  "profile_title": "👤 <b>𝗠𝗔𝗟𝗔𝗙𝗙𝗜 𝗔𝗟-𝗦𝗛𝗔𝗞𝗛𝗦𝗜𝗬</b>\n━━━━━━━━━━━━━━━━━━\n\n🆔 <b>المعرف:</b> <code>{id}</code>\n👤 <b>الاسم:</b> {name}\n📛 <b>اسم المستخدم:</b> @{username}\n📅 <b>تاريخ الانضمام:</b> {joined}\n💰 <b>الرصيد:</b> <code>${balance}</code>\n📦 <b>المشتريات:</b> <code>{purchases}</code>\n🌍 <b>اللغة:</b> {language}",
-
+  "profile_title": "👤 <b>𝗠𝗔𝗟𝗔𝗙𝗙𝗜 𝗔𝗟-𝗦𝗛𝗔𝗞𝗛𝗦𝗜𝗬</b>\n━━━━━━━━━━━━━━━━━━\n\n🆔 <b>المعرف:</b> <code>{id}</code>\n👤 <b>الاسم:</b> {name}\n📛 <b>اسم المستخدم:</b> @{username}\n📅 <b>تاريخ الانضمام:</b> {joined}\n💰 <b>الرصيد:</b> <code>₹{balance}</code>\n📦 <b>المشتريات:</b> <code>{purchases}</code>\n🌍 <b>اللغة:</b> {language}",
   "btn_change_language": "🌍 تغيير اللغة",
-
   "language_select": "🌍 <b>𝗜𝗞𝗛𝗧𝗔𝗥 𝗔𝗟-𝗟𝗨𝗚𝗛𝗔</b>\n━━━━━━━━━━━━━━━━━━",
   "language_changed": "✅ تم تغيير اللغة إلى <b>{language}</b>",
-
   "support_text": "📞 <b>𝗔𝗟-𝗗𝗔𝗔𝗠</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>اتصل بالمسؤول للمساعدة:</b>\n\n{contact}",
-
   "about_text": "ℹ️ <b>𝗛𝗔𝗪𝗟 𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>سوق حسابات Telegram\nالمميز</b> مع تسليم فوري\nوخدمة OTP.\n\n⚡ <b>الإصدار:</b> 1.0.0\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
-
-  "error_insufficient_balance": "❌ <b>𝗥𝗔𝗦𝗘𝗘𝗗 𝗚𝗛𝗔𝗬𝗥 𝗞𝗔𝗙𝗜𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n💰 <b>رصيدك:</b> <code>${balance}</code>\n💲 <b>المطلوب:</b> <code>${required}</code>\n📊 <b>الناقص:</b> <code>${short}</code>\n\n<i>أضف رصيداً للمتابعة.</i>",
-
+  "error_insufficient_balance": "❌ <b>𝗥𝗔𝗦𝗘𝗘𝗗 𝗚𝗛𝗔𝗬𝗥 𝗞𝗔𝗙𝗜𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n💰 <b>رصيدك:</b> <code>₹{balance}</code>\n💲 <b>المطلوب:</b> <code>₹{required}</code>\n📊 <b>الناقص:</b> <code>₹{short}</code>\n\n<i>أضف رصيداً للمتابعة.</i>",
   "error_out_of_stock": "❌ <b>𝗡𝗔𝗙𝗔𝗗 𝗔𝗟-𝗠𝗔𝗞𝗛𝗭𝗨𝗡</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>لا توجد حسابات متاحة\nلهذه الدولة الآن.</i>",
-
   "error_session_dead": "❌ <b>𝗜𝗡𝗧𝗔𝗛𝗔𝗧 𝗔𝗟-𝗝𝗔𝗟𝗦𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>انتهت الجلسة أو تم إلغاؤها.\nعرض OTP لم يعد متاحاً.</i>",
-
   "error_banned": "🚫 <b>𝗧𝗔𝗠𝗠𝗔 𝗔𝗟-𝗛𝗔𝗭𝗛𝗥</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>تم حظرك من استخدام\nهذا البوت.</i>",
-
   "error_generic": "❌ <b>حدث خطأ.</b> يرجى المحاولة مرة أخرى.",
-
   "force_sub_required": "🔐 <b>𝗔𝗟-𝗜𝗡𝗗𝗜𝗠𝗔𝗠 𝗠𝗔𝗧𝗟𝗨𝗕</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>مرحباً بك في TG Mandi!</b>\n\nلاستخدام هذا البوت, يجب\nالانضمام إلى القنوات التالية:",
-
   "force_sub_partial": "⚠️ <b>𝗟𝗔 𝗬𝗔𝗭𝗔𝗟 𝗡𝗔𝗤𝗜𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>يرجى الانضمام إلى جميع القنوات المطلوبة\nوالمحاولة مرة أخرى.</i>",
-
   "force_sub_verified": "✅ <b>𝗧𝗔𝗠𝗠𝗔 𝗔𝗟-𝗧𝗔𝗛𝗤𝗘𝗘𝗤</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>مرحباً! جاري تحميل القائمة...</i>",
-
   "btn_verify_membership": "✅ التحقق من العضوية",
   "btn_join": "🌐 الانضمام إلى {name}",
   "btn_join_private": "🔒 الانضمام إلى {name}",
-
   "status_active": "✅ نشط",
   "status_removed": "🔒 تمت الإزالة",
   "status_dead": "❌ ميت",
-
   "throttled": "⚠️ <b>طلبات كثيرة جداً.</b> يرجى الإبطاء."
 }

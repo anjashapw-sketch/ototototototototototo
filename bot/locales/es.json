@@ -1,99 +1,60 @@
 {
-  "welcome": "⚡ <b>𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b> ⚡\n━━━━━━━━━━━━━━━━━━\n\n👋 <b>Bienvenido,</b> {name}!\n\n◈ <i>Tu mercado premium de cuentas Telegram.</i>\n\n💰 <b>Billetera:</b> <code>${balance}</code>\n📦 <b>Comprado:</b> <code>{purchased}</code> cuentas\n\n⚠️ <i>Usa solo la app oficial de Telegram.\nNo somos responsables de baneos.</i>\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
-
+  "welcome": "⚡ <b>𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b> ⚡\n━━━━━━━━━━━━━━━━━━\n\n👋 <b>Bienvenido,</b> {name}!\n\n◈ <i>Tu mercado premium de cuentas Telegram.</i>\n\n💰 <b>Billetera:</b> <code>₹{balance}</code>\n📦 <b>Comprado:</b> <code>{purchased}</code> cuentas\n\n⚠️ <i>Usa solo la app oficial de Telegram.\nNo somos responsables de baneos.</i>\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
   "main_menu_shop": "🛒 Tienda",
   "main_menu_wallet": "💰 Billetera",
   "main_menu_accounts": "📦 Mis Cuentas",
   "main_menu_profile": "👤 Perfil",
   "main_menu_support": "📞 Soporte",
   "main_menu_about": "ℹ️ Acerca de",
-
   "shop_title": "🛒 <b>𝗧𝗜𝗘𝗡𝗗𝗔 𝗗𝗘 𝗖𝗨𝗘𝗡𝗧𝗔𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Selecciona un país</b> para ver cuentas:",
   "shop_empty": "📭 <b>𝗦𝗜𝗡 𝗦𝗧𝗢𝗖𝗞</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>No hay cuentas disponibles ahora.\nVuelve a revisar más tarde.</i>",
-
-  "country_details": "{flag} <b>{country} 𝗖𝗨𝗘𝗡𝗧𝗔𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📦 <b>En Stock:</b> <code>{stock}</code>\n💰 <b>Precio:</b> <code>${price}</code>\n\n✦ <b>Sesiones</b> auto-verificadas\n✦ <b>2FA</b> incluido\n✦ <b>Entrega</b> instantánea",
-
+  "country_details": "{flag} <b>{country} 𝗖𝗨𝗘𝗡𝗧𝗔𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📦 <b>En Stock:</b> <code>{stock}</code>\n💰 <b>Precio:</b> <code>₹{price}</code>\n\n✦ <b>Sesiones</b> auto-verificadas\n✦ <b>2FA</b> incluido\n✦ <b>Entrega</b> instantánea",
   "btn_buy_one": "🛒 Comprar 1 Cuenta",
   "btn_back": "🔙 Atrás",
   "btn_back_menu": "🔙 Al Menú",
   "btn_back_shop": "🔙 A la Tienda",
   "btn_confirm": "✅ Confirmar",
   "btn_cancel": "❌ Cancelar",
-
-  "purchase_confirm": "⚡ <b>𝗖𝗢𝗡𝗙𝗜𝗥𝗠𝗔𝗥 𝗖𝗢𝗠𝗣𝗥𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n{flag} <b>{country}</b> Cuenta × 1\n\n💰 <b>Precio:</b> <code>${price}</code>\n💳 <b>Billetera:</b> <code>${balance}</code>\n📊 <b>Después:</b> <code>${after}</code>",
-
-  "purchase_success": "✅ <b>¡𝗖𝗢𝗠𝗣𝗥𝗔 𝗘𝗫𝗜𝗧𝗢𝗦𝗔!</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>Teléfono:</b> <code>{phone}</code>\n💰 <b>Restante:</b> <code>${balance}</code>\n\n⚠️ <b>IMPORTANTE:</b>\n<i>Inicia sesión SOLO con la app oficial de Telegram.\nNo somos responsables de ningún baneo.</i>",
-
+  "purchase_confirm": "⚡ <b>𝗖𝗢𝗡𝗙𝗜𝗥𝗠𝗔𝗥 𝗖𝗢𝗠𝗣𝗥𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n{flag} <b>{country}</b> Cuenta × 1\n\n💰 <b>Precio:</b> <code>₹{price}</code>\n💳 <b>Billetera:</b> <code>₹{balance}</code>\n📊 <b>Después:</b> <code>₹{after}</code>",
+  "purchase_success": "✅ <b>¡𝗖𝗢𝗠𝗣𝗥𝗔 𝗘𝗫𝗜𝗧𝗢𝗦𝗔!</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>Teléfono:</b> <code>{phone}</code>\n💰 <b>Restante:</b> <code>₹{balance}</code>\n\n⚠️ <b>IMPORTANTE:</b>\n<i>Inicia sesión SOLO con la app oficial de Telegram.\nNo somos responsables de ningún baneo.</i>",
   "btn_accept_view": "✅ Acepto y Ver Detalles",
-
   "account_details": "📱 <b>𝗗𝗘𝗧𝗔𝗟𝗟𝗘𝗦 𝗗𝗘 𝗖𝗨𝗘𝗡𝗧𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n📞 <b>Teléfono:</b> <code>{phone}</code>\n🔐 <b>2FA:</b> <code>{twofa}</code>\n🌍 <b>País:</b> {country}\n📅 <b>Comprado:</b> {date}\n📊 <b>Estado:</b> {status}",
-
   "btn_view_otp": "👁 Ver OTP",
   "btn_remove_device": "🗑 Eliminar Dispositivo",
-
   "otp_title": "👁 <b>𝗖Ó𝗗𝗜𝗚𝗢 𝗗𝗘 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗖𝗜Ó𝗡</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>Cuenta:</b> <code>{phone}</code>\n🔑 <b>Último Código:</b> <code>{code}</code>\n🕐 <b>Recibido:</b> {time}\n\n⚠️ <i>Este código expira rápido.</i>",
-
   "otp_not_found": "⚠️ <b>𝗢𝗧𝗣 𝗡𝗢 𝗘𝗡𝗖𝗢𝗡𝗧𝗥𝗔𝗗𝗢</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>No hay códigos recientes.\nSolicita un OTP y haz clic en Actualizar.</i>",
-
   "btn_refresh": "🔄 Actualizar",
   "btn_copy_otp": "📋 Copiar OTP",
-
   "remove_device_confirm": "⚠️ <b>𝗘𝗟𝗜𝗠𝗜𝗡𝗔𝗥 𝗗𝗜𝗦𝗣𝗢𝗦𝗜𝗧𝗜𝗩𝗢</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>¿Estás seguro?</b>\n\n❖ <b>Después de esto:</b>\n  ✗ No más visualización de OTP\n  ✗ Bot pierde todo acceso\n  ✓ Cuenta completamente tuya\n\n⚠️ <i>Esta acción es PERMANENTE.</i>",
-
   "btn_yes_logout": "✅ Sí, Cerrar Sesión",
-
   "device_removed": "✅ <b>𝗗𝗜𝗦𝗣𝗢𝗦𝗜𝗧𝗜𝗩𝗢 𝗘𝗟𝗜𝗠𝗜𝗡𝗔𝗗𝗢</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>El bot ha cerrado sesión de esta cuenta.\nYa no tienes acceso al OTP.</i>",
-
-  "wallet_title": "💰 <b>𝗠𝗜 𝗕𝗜𝗟𝗟𝗘𝗧𝗘𝗥𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n💳 <b>Saldo:</b> <code>${balance}</code>\n📊 <b>Total Gastado:</b> <code>${spent}</code>\n📦 <b>Compras:</b> <code>{count}</code>",
-
+  "wallet_title": "💰 <b>𝗠𝗜 𝗕𝗜𝗟𝗟𝗘𝗧𝗘𝗥𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n💳 <b>Saldo:</b> <code>₹{balance}</code>\n📊 <b>Total Gastado:</b> <code>₹{spent}</code>\n📦 <b>Compras:</b> <code>{count}</code>",
   "wallet_no_transactions": "📭 <i>Aún no hay transacciones.</i>",
-
   "btn_request_balance": "💳 Añadir Saldo",
-
   "balance_request_ask": "💳 <b>𝗦𝗢𝗟𝗜𝗖𝗜𝗧𝗔𝗥 𝗦𝗔𝗟𝗗𝗢</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Ingresa la cantidad</b> que quieres\nañadir a tu billetera:",
-
-  "balance_request_sent": "✅ <b>𝗦𝗢𝗟𝗜𝗖𝗜𝗧𝗨𝗗 𝗘𝗡𝗩𝗜𝗔𝗗𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\nTu solicitud de <code>${amount}</code>\nha sido enviada al admin.\n\n<i>Serás notificado al aprobar.</i>",
-
-  "balance_added": "💰 <b>𝗦𝗔𝗟𝗗𝗢 𝗔Ñ𝗔𝗗𝗜𝗗𝗢</b>\n━━━━━━━━━━━━━━━━━━\n\n<code>${amount}</code> añadido a\ntu billetera.\n\n💳 <b>Nuevo Saldo:</b> <code>${balance}</code>",
-
+  "balance_request_sent": "✅ <b>𝗦𝗢𝗟𝗜𝗖𝗜𝗧𝗨𝗗 𝗘𝗡𝗩𝗜𝗔𝗗𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\nTu solicitud de <code>₹{amount}</code>\nha sido enviada al admin.\n\n<i>Serás notificado al aprobar.</i>",
+  "balance_added": "💰 <b>𝗦𝗔𝗟𝗗𝗢 𝗔Ñ𝗔𝗗𝗜𝗗𝗢</b>\n━━━━━━━━━━━━━━━━━━\n\n<code>₹{amount}</code> añadido a\ntu billetera.\n\n💳 <b>Nuevo Saldo:</b> <code>₹{balance}</code>",
   "my_accounts_title": "📦 <b>𝗠𝗜𝗦 𝗖𝗨𝗘𝗡𝗧𝗔𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Total Comprado:</b> <code>{count}</code>",
-
   "my_accounts_empty": "📭 <b>𝗦𝗜𝗡 𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗔Ú𝗡</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>Aún no has comprado cuentas.\n¡Visita la Tienda para empezar!</i>",
-
-  "profile_title": "👤 <b>𝗠𝗜 𝗣𝗘𝗥𝗙𝗜𝗟</b>\n━━━━━━━━━━━━━━━━━━\n\n🆔 <b>ID:</b> <code>{id}</code>\n👤 <b>Nombre:</b> {name}\n📛 <b>Usuario:</b> @{username}\n📅 <b>Registro:</b> {joined}\n💰 <b>Saldo:</b> <code>${balance}</code>\n📦 <b>Compras:</b> <code>{purchases}</code>\n🌍 <b>Idioma:</b> {language}",
-
+  "profile_title": "👤 <b>𝗠𝗜 𝗣𝗘𝗥𝗙𝗜𝗟</b>\n━━━━━━━━━━━━━━━━━━\n\n🆔 <b>ID:</b> <code>{id}</code>\n👤 <b>Nombre:</b> {name}\n📛 <b>Usuario:</b> @{username}\n📅 <b>Registro:</b> {joined}\n💰 <b>Saldo:</b> <code>₹{balance}</code>\n📦 <b>Compras:</b> <code>{purchases}</code>\n🌍 <b>Idioma:</b> {language}",
   "btn_change_language": "🌍 Cambiar Idioma",
-
   "language_select": "🌍 <b>𝗦𝗘𝗟𝗘𝗖𝗖𝗜𝗢𝗡𝗔𝗥 𝗜𝗗𝗜𝗢𝗠𝗔</b>\n━━━━━━━━━━━━━━━━━━",
   "language_changed": "✅ Idioma cambiado a <b>{language}</b>",
-
   "support_text": "📞 <b>𝗦𝗢𝗣𝗢𝗥𝗧𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Contacta al admin para ayuda:</b>\n\n{contact}",
-
   "about_text": "ℹ️ <b>𝗦𝗢𝗕𝗥𝗘 𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>Mercado premium de cuentas\nTelegram</b> con entrega instantánea\ny servicio OTP.\n\n⚡ <b>Versión:</b> 1.0.0\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
-
-  "error_insufficient_balance": "❌ <b>𝗦𝗔𝗟𝗗𝗢 𝗜𝗡𝗦𝗨𝗙𝗜𝗖𝗜𝗘𝗡𝗧𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n💰 <b>Tu Saldo:</b> <code>${balance}</code>\n💲 <b>Requerido:</b> <code>${required}</code>\n📊 <b>Falta:</b> <code>${short}</code>\n\n<i>Añade saldo para continuar.</i>",
-
+  "error_insufficient_balance": "❌ <b>𝗦𝗔𝗟𝗗𝗢 𝗜𝗡𝗦𝗨𝗙𝗜𝗖𝗜𝗘𝗡𝗧𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n💰 <b>Tu Saldo:</b> <code>₹{balance}</code>\n💲 <b>Requerido:</b> <code>₹{required}</code>\n📊 <b>Falta:</b> <code>₹{short}</code>\n\n<i>Añade saldo para continuar.</i>",
   "error_out_of_stock": "❌ <b>𝗦𝗜𝗡 𝗦𝗧𝗢𝗖𝗞</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>No hay cuentas disponibles\npara este país ahora.</i>",
-
   "error_session_dead": "❌ <b>𝗦𝗘𝗦𝗜Ó𝗡 𝗘𝗫𝗣𝗜𝗥𝗔𝗗𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>La sesión ha expirado o sido revocada.\nVer OTP ya no está disponible.</i>",
-
   "error_banned": "🚫 <b>𝗔𝗖𝗖𝗘𝗦𝗢 𝗗𝗘𝗡𝗘𝗚𝗔𝗗𝗢</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>Has sido baneado de\nusar este bot.</i>",
-
   "error_generic": "❌ <b>Ocurrió un error.</b> Inténtalo de nuevo.",
-
   "force_sub_required": "🔐 <b>𝗨𝗡𝗜Ó𝗡 𝗥𝗘𝗤𝗨𝗘𝗥𝗜𝗗𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>¡Bienvenido a TG Mandi!</b>\n\nPara usar este bot, debes\nunirte a los siguientes canales:",
-
   "force_sub_partial": "⚠️ <b>𝗔Ú𝗡 𝗙𝗔𝗟𝗧𝗔</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>Por favor únete a todos los canales\nrequeridos e intenta de nuevo.</i>",
-
   "force_sub_verified": "✅ <b>𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗗𝗢</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>¡Bienvenido! Cargando menú...</i>",
-
   "btn_verify_membership": "✅ Verificar Membresía",
   "btn_join": "🌐 Unirse a {name}",
   "btn_join_private": "🔒 Unirse a {name}",
-
   "status_active": "✅ Activo",
   "status_removed": "🔒 Eliminado",
   "status_dead": "❌ Muerto",
-
   "throttled": "⚠️ <b>Demasiadas solicitudes.</b> Por favor, más lento."
 }

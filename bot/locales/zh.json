@@ -1,99 +1,60 @@
 {
-  "welcome": "⚡ <b>𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b> ⚡\n━━━━━━━━━━━━━━━━━━\n\n👋 <b>欢迎,</b> {name}!\n\n◈ <i>您的高级 Telegram 账户市场。</i>\n\n💰 <b>钱包:</b> <code>${balance}</code>\n📦 <b>已购买:</b> <code>{purchased}</code> 个账户\n\n⚠️ <i>请只使用官方 Telegram 应用登录。\n我们不对任何封禁负责。</i>\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
-
+  "welcome": "⚡ <b>𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b> ⚡\n━━━━━━━━━━━━━━━━━━\n\n👋 <b>欢迎,</b> {name}!\n\n◈ <i>您的高级 Telegram 账户市场。</i>\n\n💰 <b>钱包:</b> <code>₹{balance}</code>\n📦 <b>已购买:</b> <code>{purchased}</code> 个账户\n\n⚠️ <i>请只使用官方 Telegram 应用登录。\n我们不对任何封禁负责。</i>\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
   "main_menu_shop": "🛒 商店",
   "main_menu_wallet": "💰 钱包",
   "main_menu_accounts": "📦 我的账户",
   "main_menu_profile": "👤 个人资料",
   "main_menu_support": "📞 支持",
   "main_menu_about": "ℹ️ 关于",
-
   "shop_title": "🛒 <b>𝗔𝗖𝗖𝗢𝗨𝗡𝗧 𝗦𝗛𝗢𝗣</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>选择国家</b>浏览可用账户:",
   "shop_empty": "📭 <b>𝗡𝗢 𝗦𝗧𝗢𝗖𝗞</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>目前没有可用账户。\n请稍后再试。</i>",
-
-  "country_details": "{flag} <b>{country} 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📦 <b>库存:</b> <code>{stock}</code>\n💰 <b>价格:</b> <code>${price}</code>\n\n✦ <b>自动验证</b>会话\n✦ <b>2FA</b> 包含\n✦ <b>即时</b>交付",
-
+  "country_details": "{flag} <b>{country} 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📦 <b>库存:</b> <code>{stock}</code>\n💰 <b>价格:</b> <code>₹{price}</code>\n\n✦ <b>自动验证</b>会话\n✦ <b>2FA</b> 包含\n✦ <b>即时</b>交付",
   "btn_buy_one": "🛒 购买 1 个账户",
   "btn_back": "🔙 返回",
   "btn_back_menu": "🔙 返回菜单",
   "btn_back_shop": "🔙 返回商店",
   "btn_confirm": "✅ 确认",
   "btn_cancel": "❌ 取消",
-
-  "purchase_confirm": "⚡ <b>𝗖𝗢𝗡𝗙𝗜𝗥𝗠 𝗣𝗨𝗥𝗖𝗛𝗔𝗦𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n{flag} <b>{country}</b> 账户 × 1\n\n💰 <b>价格:</b> <code>${price}</code>\n💳 <b>钱包:</b> <code>${balance}</code>\n📊 <b>之后:</b> <code>${after}</code>",
-
-  "purchase_success": "✅ <b>𝗣𝗨𝗥𝗖𝗛𝗔𝗦𝗘 𝗦𝗨𝗖𝗖𝗘𝗦𝗦!</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>电话:</b> <code>{phone}</code>\n💰 <b>余额:</b> <code>${balance}</code>\n\n⚠️ <b>重要:</b>\n<i>仅通过官方 Telegram 应用登录。\n我们不对任何封禁负责。</i>",
-
+  "purchase_confirm": "⚡ <b>𝗖𝗢𝗡𝗙𝗜𝗥𝗠 𝗣𝗨𝗥𝗖𝗛𝗔𝗦𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n{flag} <b>{country}</b> 账户 × 1\n\n💰 <b>价格:</b> <code>₹{price}</code>\n💳 <b>钱包:</b> <code>₹{balance}</code>\n📊 <b>之后:</b> <code>₹{after}</code>",
+  "purchase_success": "✅ <b>𝗣𝗨𝗥𝗖𝗛𝗔𝗦𝗘 𝗦𝗨𝗖𝗖𝗘𝗦𝗦!</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>电话:</b> <code>{phone}</code>\n💰 <b>余额:</b> <code>₹{balance}</code>\n\n⚠️ <b>重要:</b>\n<i>仅通过官方 Telegram 应用登录。\n我们不对任何封禁负责。</i>",
   "btn_accept_view": "✅ 接受并查看详情",
-
   "account_details": "📱 <b>𝗔𝗖𝗖𝗢𝗨𝗡𝗧 𝗗𝗘𝗧𝗔𝗜𝗟𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n📞 <b>电话:</b> <code>{phone}</code>\n🔐 <b>2FA:</b> <code>{twofa}</code>\n🌍 <b>国家:</b> {country}\n📅 <b>购买:</b> {date}\n📊 <b>状态:</b> {status}",
-
   "btn_view_otp": "👁 查看 OTP",
   "btn_remove_device": "🗑 移除机器人设备",
-
   "otp_title": "👁 <b>𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗖𝗢𝗗𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n📱 <b>账户:</b> <code>{phone}</code>\n🔑 <b>最新代码:</b> <code>{code}</code>\n🕐 <b>收到:</b> {time}\n\n⚠️ <i>此代码很快过期。</i>",
-
   "otp_not_found": "⚠️ <b>𝗡𝗢 𝗢𝗧𝗣 𝗙𝗢𝗨𝗡𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>未找到最近的验证码。\n请请求 OTP 然后点击刷新。</i>",
-
   "btn_refresh": "🔄 刷新",
   "btn_copy_otp": "📋 复制 OTP",
-
   "remove_device_confirm": "⚠️ <b>𝗥𝗘𝗠𝗢𝗩𝗘 𝗗𝗘𝗩𝗜𝗖𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>您确定吗?</b>\n\n❖ <b>之后:</b>\n  ✗ 不能再查看 OTP\n  ✗ 机器人失去所有访问\n  ✓ 账户完全属于您\n\n⚠️ <i>此操作是永久的。</i>",
-
   "btn_yes_logout": "✅ 是的, 退出",
-
   "device_removed": "✅ <b>𝗗𝗘𝗩𝗜𝗖𝗘 𝗥𝗘𝗠𝗢𝗩𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>机器人已从此账户退出。\n您不再有 OTP 访问权限。</i>",
-
-  "wallet_title": "💰 <b>𝗠𝗬 𝗪𝗔𝗟𝗟𝗘𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n💳 <b>余额:</b> <code>${balance}</code>\n📊 <b>总消费:</b> <code>${spent}</code>\n📦 <b>购买:</b> <code>{count}</code>",
-
+  "wallet_title": "💰 <b>𝗠𝗬 𝗪𝗔𝗟𝗟𝗘𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n💳 <b>余额:</b> <code>₹{balance}</code>\n📊 <b>总消费:</b> <code>₹{spent}</code>\n📦 <b>购买:</b> <code>{count}</code>",
   "wallet_no_transactions": "📭 <i>暂无交易。</i>",
-
   "btn_request_balance": "💳 添加余额",
-
   "balance_request_ask": "💳 <b>𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗕𝗔𝗟𝗔𝗡𝗖𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>输入您要添加</b>\n到钱包的金额:",
-
-  "balance_request_sent": "✅ <b>𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗦𝗘𝗡𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n您的 <code>${amount}</code> 请求已\n发送给管理员。\n\n<i>批准后将通知您。</i>",
-
-  "balance_added": "💰 <b>𝗕𝗔𝗟𝗔𝗡𝗖𝗘 𝗔𝗗𝗗𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<code>${amount}</code> 已添加到\n您的钱包。\n\n💳 <b>新余额:</b> <code>${balance}</code>",
-
+  "balance_request_sent": "✅ <b>𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗦𝗘𝗡𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n您的 <code>₹{amount}</code> 请求已\n发送给管理员。\n\n<i>批准后将通知您。</i>",
+  "balance_added": "💰 <b>𝗕𝗔𝗟𝗔𝗡𝗖𝗘 𝗔𝗗𝗗𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<code>₹{amount}</code> 已添加到\n您的钱包。\n\n💳 <b>新余额:</b> <code>₹{balance}</code>",
   "my_accounts_title": "📦 <b>𝗠𝗬 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>总购买:</b> <code>{count}</code>",
-
   "my_accounts_empty": "📭 <b>𝗡𝗢 𝗔𝗖𝗖𝗢𝗨𝗡𝗧𝗦</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>您还没有购买任何账户。\n访问商店开始吧!</i>",
-
-  "profile_title": "👤 <b>𝗠𝗬 𝗣𝗥𝗢𝗙𝗜𝗟𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n🆔 <b>ID:</b> <code>{id}</code>\n👤 <b>姓名:</b> {name}\n📛 <b>用户名:</b> @{username}\n📅 <b>加入:</b> {joined}\n💰 <b>余额:</b> <code>${balance}</code>\n📦 <b>购买:</b> <code>{purchases}</code>\n🌍 <b>语言:</b> {language}",
-
+  "profile_title": "👤 <b>𝗠𝗬 𝗣𝗥𝗢𝗙𝗜𝗟𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n🆔 <b>ID:</b> <code>{id}</code>\n👤 <b>姓名:</b> {name}\n📛 <b>用户名:</b> @{username}\n📅 <b>加入:</b> {joined}\n💰 <b>余额:</b> <code>₹{balance}</code>\n📦 <b>购买:</b> <code>{purchases}</code>\n🌍 <b>语言:</b> {language}",
   "btn_change_language": "🌍 更改语言",
-
   "language_select": "🌍 <b>𝗦𝗘𝗟𝗘𝗖𝗧 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘</b>\n━━━━━━━━━━━━━━━━━━",
   "language_changed": "✅ 语言已更改为 <b>{language}</b>",
-
   "support_text": "📞 <b>𝗦𝗨𝗣𝗣𝗢𝗥𝗧</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>联系管理员获取帮助:</b>\n\n{contact}",
-
   "about_text": "ℹ️ <b>𝗔𝗕𝗢𝗨𝗧 𝗧𝗚 𝗠𝗔𝗡𝗗𝗜</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>高级 Telegram 账户\n市场</b>提供即时交付和\nOTP 服务。\n\n⚡ <b>版本:</b> 1.0.0\n\n━━━━━━━━━━━━━━━━━━\n✨ <b>Pᴏᴡᴇʀᴇᴅ Bʏ</b> ✨\n\n👨‍💻 <b>Dᴇᴠ:</b> @itzanjasha",
-
-  "error_insufficient_balance": "❌ <b>𝗜𝗡𝗦𝗨𝗙𝗙𝗜𝗖𝗜𝗘𝗡𝗧 𝗕𝗔𝗟𝗔𝗡𝗖𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n💰 <b>您的余额:</b> <code>${balance}</code>\n💲 <b>需要:</b> <code>${required}</code>\n📊 <b>短缺:</b> <code>${short}</code>\n\n<i>添加余额以继续。</i>",
-
+  "error_insufficient_balance": "❌ <b>𝗜𝗡𝗦𝗨𝗙𝗙𝗜𝗖𝗜𝗘𝗡𝗧 𝗕𝗔𝗟𝗔𝗡𝗖𝗘</b>\n━━━━━━━━━━━━━━━━━━\n\n💰 <b>您的余额:</b> <code>₹{balance}</code>\n💲 <b>需要:</b> <code>₹{required}</code>\n📊 <b>短缺:</b> <code>₹{short}</code>\n\n<i>添加余额以继续。</i>",
   "error_out_of_stock": "❌ <b>𝗢𝗨𝗧 𝗢𝗙 𝗦𝗧𝗢𝗖𝗞</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>目前该国家没有可用账户。</i>",
-
   "error_session_dead": "❌ <b>𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗘𝗫𝗣𝗜𝗥𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>会话已过期或被撤销。\nOTP 查看不再可用。</i>",
-
   "error_banned": "🚫 <b>𝗔𝗖𝗖𝗘𝗦𝗦 𝗗𝗘𝗡𝗜𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>您已被禁止使用此机器人。</i>",
-
   "error_generic": "❌ <b>发生错误。</b>请重试。",
-
   "force_sub_required": "🔐 <b>𝗝𝗢𝗜𝗡 𝗥𝗘𝗤𝗨𝗜𝗥𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<b>欢迎使用 TG Mandi!</b>\n\n要使用此机器人, 您必须\n加入以下频道:",
-
   "force_sub_partial": "⚠️ <b>𝗦𝗧𝗜𝗟𝗟 𝗠𝗜𝗦𝗦𝗜𝗡𝗚</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>请加入所有必需频道\n然后重试。</i>",
-
   "force_sub_verified": "✅ <b>𝗩𝗘𝗥𝗜𝗙𝗜𝗘𝗗</b>\n━━━━━━━━━━━━━━━━━━\n\n<i>欢迎! 正在加载菜单...</i>",
-
   "btn_verify_membership": "✅ 验证成员资格",
   "btn_join": "🌐 加入 {name}",
   "btn_join_private": "🔒 加入 {name}",
-
   "status_active": "✅ 活跃",
   "status_removed": "🔒 已删除",
   "status_dead": "❌ 死亡",
-
   "throttled": "⚠️ <b>请求过多。</b>请放慢速度。"
 }
